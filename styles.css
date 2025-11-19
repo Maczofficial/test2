@@ -6,8 +6,8 @@
 }
 
 body {
-    background: #eef1f7;
-    color: #1b1e2b;
+    background: #0d0f17;
+    color: #e6e6e6;
 }
 
 .container {
@@ -19,11 +19,11 @@ body {
 
 .sidebar {
     width: 30%;
-    background: #2a2f4f;
-    color: white;
+    background: #181b2e;
+    color: #f0f0f0;
     padding: 25px;
     border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 14px rgba(0,0,0,0.4);
 }
 
 .profile-icon {
@@ -72,31 +72,32 @@ body {
 
 .content {
     width: 70%;
-    background: white;
+    background: #1e2136;
     padding: 30px;
     border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    box-shadow: 0 4px 14px rgba(0,0,0,0.4);
 }
 
 .item {
     margin-bottom: 20px;
     padding-bottom: 10px;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #444;
 }
 
 .item h3 {
     font-size: 18px;
     font-weight: 600;
+    color: #ffd95c;
 }
 
 .org {
     font-size: 15px;
-    color: #555;
+    color: #c5c5c5;
 }
 
 .time {
     font-size: 14px;
-    color: #777;
+    color: #a0a0a0;
 }
 
 .skills {
@@ -105,7 +106,7 @@ body {
 
 .skills li {
     list-style: none;
-    background: #f2f4fa;
+    background: #2a2f4f;
     padding: 10px;
     margin: 6px 0;
     border-radius: 6px;
