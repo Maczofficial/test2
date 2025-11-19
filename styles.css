@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background: #eef1f7;
+    color: #1b1e2b;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 40px auto;
+    display: flex;
+    gap: 30px;
+}
+
+.sidebar {
+    width: 30%;
+    background: #2a2f4f;
+    color: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.profile-icon {
+    font-size: 80px;
+    text-align: center;
+    color: #ffb300;
+}
+
+.name {
+    text-align: center;
+    margin: 15px 0 5px 0;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.role {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+.section-title {
+    margin: 20px 0 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffca28;
+}
+
+.contact-list li,
+.hobbies li {
+    list-style: none;
+    padding: 6px 0;
+    font-size: 15px;
+}
+
+.contact-list i {
+    margin-right: 10px;
+    color: #ffca28;
+}
+
+.contact-list a {
+    color: #ffca28;
+    text-decoration: none;
+}
+
+.content {
+    width: 70%;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.item {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.item h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.org {
+    font-size: 15px;
+    color: #555;
+}
+
+.time {
+    font-size: 14px;
+    color: #777;
+}
+
+.skills {
+    margin-top: 10px;
+}
+
+.skills li {
+    list-style: none;
+    background: #f2f4fa;
+    padding: 10px;
+    margin: 6px 0;
+    border-radius: 6px;
+}
+
+section, .item, ul.skills li {
+    opacity: 0;
+    transform: translateY(15px);
+    transition: 0.5s ease;
+}
